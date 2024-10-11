@@ -8,6 +8,6 @@
 from typing import Union, Tuple
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """Return sum of two float"""
-    return Tuple(k, float(v**2))
+    return (k, float(v**2))
