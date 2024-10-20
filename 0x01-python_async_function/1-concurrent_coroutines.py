@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""This module contains the wait_n coroutine"""
+
 
 import asyncio
 from typing import List
